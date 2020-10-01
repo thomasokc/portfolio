@@ -1,9 +1,19 @@
-body{
-    font-family:arial;
+header{
+    background-color:blue;
+    color:white;
+    padding:5px;
 }
 
-.title {
-    text-align:center;
+li{
+    display:inline;
+    list-style-type: none;
+    padding: 10px;
+    position:relative;
+    left: 85%;
+}
+
+body{
+    font-family:arial;
 }
 
 a{
