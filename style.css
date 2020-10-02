@@ -31,6 +31,7 @@ body{
     background-image: linear-gradient(to right, blue , #1DBFF3);
     color:white;
     width:100%;
+    text-align:center;
 }
 
 .welcome{
@@ -38,7 +39,6 @@ body{
 }
 
 a{
-    margin:10px;
     color:white;
 }
 
@@ -50,15 +50,20 @@ a:hover{
 .section{
     padding:10px;
     color: #1DBFF3;
+    text-align:center;
+}
+
+.examples{
+    
+    text-align:center;
 }
 
 .project{
-    background-color:gray;
-    width:200px;
-    height:250px;
-    margin:20px;
+    margin:30px;
     border-radius: 30px;
-    float:left;
-    
+    box-shadow: 5px 5px 5px 5px gray;
 }
 
+.project:hover{
+    box-shadow:7px 7px 7px 7px #1DBFF3;
+}
