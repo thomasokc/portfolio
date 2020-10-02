@@ -13,12 +13,18 @@ body{
     border-bottom: 2px solid #1DBFF3;
 }
 
+.me{
+    float:left;
+    padding-left:10px;
+}
+
 li{
     display:inline;
     list-style-type: none;
     padding: 10px;
     position:relative;
-    left: 85%;
+    left:80%;
+    
 }
 
 body{
@@ -38,8 +44,15 @@ body{
     color:#1DBFF3;
 }
 
+.about{
+    font-family:serif;
+    font-weight: lighter;
+}
+
 a{
     color:white;
+    font-family:serif;
+    font-weight: lighter;
 }
 
 a:hover{
@@ -51,19 +64,34 @@ a:hover{
     padding:10px;
     color: #1DBFF3;
     text-align:center;
+    height:600px;
 }
 
 .examples{
-    
+    float:left;
     text-align:center;
+    position:relative
+    margin:0px auto;
+    width:50%;
+    height:50%;;
 }
 
 .project{
     margin:30px;
     border-radius: 30px;
     box-shadow: 5px 5px 5px 5px gray;
+    display:inline-block;
+    vertical-align: top;
 }
 
 .project:hover{
     box-shadow:7px 7px 7px 7px #1DBFF3;
+}
+
+.footer{
+    background-image: linear-gradient(to right, blue , #1DBFF3);
+    color: white;
+    text-align:center;
+    bottom:0px;
+    padding:10px;
 }
